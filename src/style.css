@@ -1,0 +1,121 @@
+body {
+    font-family: 'century gothic';
+    margin: 0;
+    padding: 0;
+    background-color: #e3c7ab;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #294a29;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+    font-family: cursive;
+    border-bottom: 5px solid #c63626;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1.2rem;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem; /* Добавляем отступ между товарами */
+  }
+  
+  .product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    font-family: cursive;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    transition: transform 0.2s ease-in-out; /* Добавляем анимацию при наведении */
+  }
+
+  .product-card:hover {
+    transform: scale(1.05); /* Увеличиваем размер карточки при наведении */
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product-card h3 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .product-card p {
+    font-size: 1.1rem;
+    color: #7c1919;
+  }
+  
+  .product-card button {
+    background-color: #1c4c6c;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  
+  
+  .footer {
+    background-color: #294a29;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .home, .products, .about {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'century gothic';
+  }
+  
+  .products input {
+    width: 80%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
