@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NewYear/static/css/main.db4f546b.css",
+    "main.js": "/NewYear/static/js/main.ade0139d.js",
+    "index.html": "/NewYear/index.html",
+    "main.db4f546b.css.map": "/NewYear/static/css/main.db4f546b.css.map",
+    "main.ade0139d.js.map": "/NewYear/static/js/main.ade0139d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db4f546b.css",
+    "static/js/main.ade0139d.js"
+  ]
+}
